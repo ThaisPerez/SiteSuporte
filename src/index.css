@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+ :root{
+    --primaryColor: rgb(55, 155, 180);
+    --secondaryColor: white;
+    --textColor: white;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+.Container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+    font-family: sans-serif;
+    gap: 20px;
+    margin-top: 50px;
+    color: hsl(0, 0%, 33%);
+}
+.Container-Cards{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-left: 25px;
+}
