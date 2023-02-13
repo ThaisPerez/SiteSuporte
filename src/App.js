@@ -13,7 +13,7 @@ import Footer from './components/Footer'
 
 function App() {
   return (
-    <div >
+    <div className='Container-Global'>
      <Navbar/>
      <div className='Container'>
       <h1>Solução para qualquer problema em informática </h1>
@@ -26,6 +26,11 @@ function App() {
         <Card titulo="Peças" subtitulo=" Peças para computador ou notebook" img={Hardware}/>
         <Card titulo="Limpeza" subtitulo=" Limpeza externa e interna" img={Limpeza}/>
         <Card titulo="Trocar de peças" subtitulo=" Substituição de peças ou upgrade " img={Ram}/>
+        <Card titulo="Trocar de peças" subtitulo=" Substituição de peças ou upgrade " img={Ram}/>
+        <Card titulo="Trocar de peças" subtitulo=" Substituição de peças ou upgrade " img={Ram}/>
+        <Card titulo="Trocar de peças" subtitulo=" Substituição de peças ou upgrade " img={Ram}/>
+        <Card titulo="Trocar de peças" subtitulo=" Substituição de peças ou upgrade " img={Ram}/>
+
       </div>
      </div>
      <Footer/>

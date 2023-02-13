@@ -1,12 +1,15 @@
 import './styles.css'
-import {InstagramLogo, WhatsappLogo } from "phosphor-react"
+import Instagram from './../../assets/instagram.png'
+import Whatsapp from './../../assets/whatsapp.png'
 
 export default function Footer()
 {
     return(
+        
     <div className="Footer">
-    <InstagramLogo size={52} />
-    <WhatsappLogo size={52} />
+          <h1>Nossas Redes Socias </h1>
+        <img src={Instagram} alt="" />
+        <img src={Whatsapp} alt="" />
     </div>
     )
 }
