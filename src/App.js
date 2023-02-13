@@ -18,7 +18,7 @@ function App() {
      <div className='Container'>
       <h1>Solução para qualquer problema em informática </h1>
       <div className='Container-Cards'>
-        <Card titulo="Câmera de segurança" subtitulo="Instalação e manuntenção de câmeras" img={Camera}/> 
+        <Card titulo="Câmera de segurança" subtitulo="Instalação e manuntenção" img={Camera}/> 
         <Card titulo="Montagem" subtitulo="Montar seu computador" img={Manuntencao}/>
         <Card titulo="Formatação" subtitulo=" Formatação para o windows 11" img={Formatação}/>
         <Card titulo="Conserto" subtitulo=" Conserto do seu equipamento" img={Conserto}/>
