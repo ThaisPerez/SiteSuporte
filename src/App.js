@@ -10,11 +10,19 @@ import Hardware from './assets/hardware.png'
 import Limpeza from './assets/limpeza.png'
 import Ram from './assets/ram.png'
 import Footer from './components/Footer'
+import Suporte from   './assets/suporte.svg'
 
 function App() {
   return (
     <div className='Container-Global'>
      <Navbar/>
+     <div className='Content'>
+      <img src={Suporte} alt="" />
+      <div className='ContentInfo'>
+      <span>Empresa de suporte de TI</span>
+      <p>Imagine o custo que é manter um departamento completo, e que siga padrões profissionais na área de TI? Se você tem esse tipo de preocupação, chegou a hora de consultar a HELP.</p>
+      </div>
+     </div>     
      <div className='Container'>
       <h1>Solução para qualquer problema em informática </h1>
       <div className='Container-Cards'>

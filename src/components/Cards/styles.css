@@ -1,25 +1,24 @@
-.Card{
-    width: 300px; /* Tamanho */
-    height: 250; /* Altura */
-    display: flex; /* Alinhamento  */
-    flex-direction: column; /* Alinhamento em coluna  */ 
-    align-items: center;   /* Centralizar os elementos */
-    background-color: #d1d5db; /* Cor do fundo */
-    color: rgb(130, 129, 129); /* cor do texto */
-    font-family: sans-serif; /* Tipo de fonte */
-    gap: 10px; /* Separador dos elementos */
-    border-radius: 6px; /* Arredondamento das bordas */
-    padding: 10px 0px; /* Distanciamento das bordas */
-     
+.Card {
+  width: 300px; /* Tamanho */
+  height: 250; /* Altura */
+  display: flex; /* Alinhamento  */
+  flex-direction: column; /* Alinhamento em coluna  */
+  align-items: center; /* Centralizar os elementos */
+  background-color: #f8fafc; /* Cor do fundo */
+  color: rgb(130, 129, 129); /* cor do texto */
+  font-family: sans-serif; /* Tipo de fonte */
+  gap: 10px; /* Separador dos elementos */
+  border-radius: 6px; /* Arredondamento das bordas */
+  padding: 10px 0px; /* Distanciamento das bordas */
 }
-span{
-    font-size: 16px; /* Tamanho da fonte */ 
+span {
+  font-size: 16px; /* Tamanho da fonte */
 }
-img{        
-    width: 80px; /* Tamanho da imagem */ 
-    height: 80px; /* Altura da imagem */
+img {
+  width: 80px; /* Tamanho da imagem */
+  height: 80px; /* Altura da imagem */
 }
 
-p{
-    font-size: 14px;  /* Tamanho da fonte */ 
+p {
+  font-size: 14px; /* Tamanho da fonte */
 }
