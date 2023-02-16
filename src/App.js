@@ -11,6 +11,9 @@ import Limpeza from './assets/limpeza.png'
 import Ram from './assets/ram.png'
 import Footer from './components/Footer'
 import Suporte from   './assets/suporte.svg'
+import CardSuporte from './components/CardsSuporte'
+import Anydesk from './assets/anydesk.svg'
+import Team from'./assets/team.svg'
 
 function App() {
   return (
@@ -39,6 +42,15 @@ function App() {
         <Card titulo="Trocar de peças" subtitulo=" Substituição de peças ou upgrade " img={Ram}/>
         <Card titulo="Trocar de peças" subtitulo=" Substituição de peças ou upgrade " img={Ram}/>
 
+      </div>
+     </div>
+     <div className='Container-suporte'>
+    <span>Tipos de Suporte Rápido</span>
+      <p>Para resolver problemas simples temos serviços remotos</p>
+      <div className='Container-card-suporte'>
+      <CardSuporte img={Anydesk} titulo="SUPORTE WINDOWS ANYDESK" link ="https://www.figma.com/exit?url=https%3A%2F%2Fwww.bind.com.br%2FAnyDesk.exe"subtitulo=" Substituição de peças ou upgrade " />
+      <CardSuporte img={Team} titulo="SUPORTE WINDOWS TEAM VIEWER" link ="https://www.figma.com/exit?url=https%3A%2F%2Fwww.bind.com.br%2FAnyDesk.exe"subtitulo=" Substituição de peças ou upgrade " />
+      <CardSuporte img={Anydesk} titulo="SUPORTE MAC ANYDESK" link ="https://www.figma.com/exit?url=https%3A%2F%2Fwww.bind.com.br%2FAnyDesk.exe"subtitulo=" Substituição de peças ou upgrade " />
       </div>
      </div>
      <Footer/>
