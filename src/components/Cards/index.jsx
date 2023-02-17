@@ -5,7 +5,7 @@ export default function  Card (props){
         <div className="Card">
         <img src={props.img} alt="" />
         <span>{props.titulo}</span>
-        <p>{props.subtitulo}</p>
+        <p className="Container-card-subtitilo">{props.subtitulo}</p>
         </div>
     )
 }

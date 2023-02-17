@@ -48,9 +48,9 @@ function App() {
     <span>Tipos de Suporte Rápido</span>
       <p>Para resolver problemas simples temos serviços remotos</p>
       <div className='Container-card-suporte'>
-      <CardSuporte img={Anydesk} titulo="SUPORTE WINDOWS ANYDESK" link ="https://www.figma.com/exit?url=https%3A%2F%2Fwww.bind.com.br%2FAnyDesk.exe"subtitulo=" Substituição de peças ou upgrade " />
-      <CardSuporte img={Team} titulo="SUPORTE WINDOWS TEAM VIEWER" link ="https://www.figma.com/exit?url=https%3A%2F%2Fwww.bind.com.br%2FAnyDesk.exe"subtitulo=" Substituição de peças ou upgrade " />
-      <CardSuporte img={Anydesk} titulo="SUPORTE MAC ANYDESK" link ="https://www.figma.com/exit?url=https%3A%2F%2Fwww.bind.com.br%2FAnyDesk.exe"subtitulo=" Substituição de peças ou upgrade " />
+      <CardSuporte img={Anydesk} titulo="SUPORTE WINDOWS ANYDESK" link ="https://www.figma.com/exit?url=https%3A%2F%2Fwww.bind.com.br%2FAnyDesk.exe" subtitulo ="Software de acesso remoto ANY DESK para Windows " />
+      <CardSuporte img={Team} titulo="SUPORTE WINDOWS TEAM VIEWER" link ="https://www.figma.com/exit?url=https%3A%2F%2Fwww.bind.com.br%2FAnyDesk.exe"subtitulo=" Software de acesso remoto TEAM VIWER para Windows" />
+      <CardSuporte img={Anydesk} titulo="SUPORTE MAC ANYDESK" link ="https://www.figma.com/exit?url=https%3A%2F%2Fwww.bind.com.br%2FAnyDesk.exe"subtitulo ="Software de acesso remoto TEAM VIWER para Mac" />
       </div>
      </div>
      <Footer/>
