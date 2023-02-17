@@ -20,8 +20,10 @@
         font-size: 16px;
     
     }
-      p 
-    {
-        font-size: 14px; 
-    }
       
+  
+    
+    a {
+      color:#2563EB; 
+      font-size: 14px; 
+    }      
