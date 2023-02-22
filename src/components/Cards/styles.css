@@ -1,6 +1,6 @@
 .Card {
   width: 300px; /* Tamanho */
-  height: 250; /* Altura */
+  height: 179px; /* Altura */
   display: flex; /* Alinhamento  */
   flex-direction: column; /* Alinhamento em coluna  */
   align-items: center; /* Centralizar os elementos */
@@ -9,16 +9,19 @@
   gap: 10px; /* Separador dos elementos */
   border-radius: 6px; /* Arredondamento das bordas */
   padding: 10px 0px; /* Distanciamento das bordas */
+  justify-content: space-between; /*espaçamento igual entre os elementos */
+
 }
-span {
+.Card span {
+  color: #FFFFFF;
   font-size: 16px; /* Tamanho da fonte */
 }
-img {
+.Card img {
   width: 80px; /* Tamanho da imagem */
   height: 80px; /* Altura da imagem */
 }
 
-p {
-
+.Card p {
+  color:#F8FAFC;
   font-size: 14px; /* Tamanho da fonte */
 }
