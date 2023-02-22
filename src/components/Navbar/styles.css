@@ -14,7 +14,9 @@ nav a{
 
 }
 nav a:hover{
-color: var(--secondaryColor);
+color: rgb(93, 106, 221);
+cursor: pointer;
+
 }
 
 
