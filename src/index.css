@@ -126,5 +126,24 @@ flex-direction: column;
     text-align: center;
     justify-content: space-between;
     width: 100%;
+    
+}
+@media only screen and (max-width: 900px) {
+    .Content {
+        height: auto;
+        flex-direction: column;
+    }
 
+    .Container {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .Container-suporte .Container-card-suporte {
+        flex-direction: column;
+    }
+
+    .Container-suporte .Content-suporte {
+        width: 100% !important;
+    }
 }
