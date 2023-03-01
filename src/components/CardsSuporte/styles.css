@@ -26,3 +26,9 @@
   color: #2563EB;
   font-size: 14px;
 }
+@media only screen and (max-width: 900px) {
+  .CardSuporte{
+    display: flex;
+    width: 100% !important;
+  }
+}

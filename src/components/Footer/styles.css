@@ -33,3 +33,11 @@ align-items: center;
    padding: 10px;
    justify-content: center;
 }
+@media only screen and (max-width: 900px) {
+.Footer {
+    flex-direction: column;
+}
+.FooterInfo{
+    width: 100%;
+}
+}
