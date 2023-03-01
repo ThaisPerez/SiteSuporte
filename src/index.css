@@ -153,6 +153,8 @@ flex-direction: column;
       width: 100%;
     }
   
+
+    
     .Container-suporte .Content-suporte {
       width: 100% !important;
       height: 100%;
@@ -170,6 +172,7 @@ flex-direction: column;
   
     .Container-suporte .Container-card-suporte {
       flex-direction: column;
+      height: 100%;
     }
   
     .Content img {
