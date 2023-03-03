@@ -11,7 +11,10 @@
   padding: 10px 0px; /* Distanciamento das bordas */
   justify-content: space-between; /*espaçamento igual entre os elementos */
   cursor: pointer;  /*seta de cursor */ 
-  transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out; /*lentidão do mouse */
+  text-decoration: none;
+
+
 
 
 }
