@@ -10,7 +10,13 @@
   border-radius: 6px; /* Arredondamento das bordas */
   padding: 10px 0px; /* Distanciamento das bordas */
   justify-content: space-between; /*espaçamento igual entre os elementos */
+  cursor: pointer;  /*seta de cursor */ 
+  transition: 0.3s ease-in-out;
 
+
+}
+.Card:hover{
+background-color: rgb(255, 255, 255, 0.1);
 }
 .Card span {
   color: #FFFFFF;
