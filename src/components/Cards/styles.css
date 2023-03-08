@@ -1,6 +1,6 @@
 .Card {
   width: 300px; /* Tamanho */
-  height: 179px; /* Altura */
+  height: auto; /* Altura */
   display: flex; /* Alinhamento  */
   flex-direction: column; /* Alinhamento em coluna  */
   align-items: center; /* Centralizar os elementos */
@@ -19,18 +19,45 @@
 
 }
 .Card:hover{
-background-color: rgb(255, 255, 255, 0.1);
+ background-color: rgb(255, 255, 255, 0.1); 
 }
 .Card span {
   color: #FFFFFF;
-  font-size: 16px; /* Tamanho da fonte */
+  font-size: 15px; /* Tamanho da fonte */
 }
 .Card img {
-  width: 80px; /* Tamanho da imagem */
-  height: 80px; /* Altura da imagem */
+  width: 160px; /* Tamanho da imagem */
+  height: 160px; /* Altura da imagem */
 }
 
 .Card p {
   color:#F8FAFC;
-  font-size: 14px; /* Tamanho da fonte */
+  font-size: 12px; /* Tamanho da fonte */
 }
+.click
+{
+  margin-top: 10px;
+  width: auto;
+  height: 40px;
+  padding: 10px;
+  background: rgb(42, 142, 55,0);
+  border: 1px solid #FFFFFF;
+  color: #FFFFFF;
+  text-decoration: none;
+  border-radius: 4px;
+  display: flex;
+  gap:10px;
+  
+}
+.click img{
+  width: 15px;
+  height: 15px;
+}
+ .click:hover {
+   /*opacity: 0.3;*/
+   background: #47b747;
+   transform: scale(1.2);
+   /* Equal to scaleX(2) scaleY(2) */
+   transition-duration: 0.5s;
+   /*transform: scale(0.6);*/
+ }

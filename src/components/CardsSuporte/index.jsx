@@ -5,7 +5,10 @@ return(
    <div  className='CardSuporte'>
    <img className='imgSuporte' src={props.img} alt=""></img>
    <span>{props.titulo}</span>
-   <a href={props.link}>{props.subtitulo}</a>
+    <a href={props.link}>{props.subtitulo}</a>
+
+
+  
 
   </div>
 )

@@ -60,7 +60,7 @@ body {
 }
 
 .Container {
-    height: 100vh;
+    height: auto;
     justify-content: center;
     width: 100%;
     display: flex;
@@ -74,7 +74,7 @@ body {
 
 .Container-Cards {
     display: flex;
-    gap: 15px;
+    gap: 40px;
     flex-wrap: wrap;
     justify-content: center;
     max-width: 1000px;
@@ -178,5 +178,8 @@ flex-direction: column;
     .Content img {
       width: 100%;
     }
-  }
+            }
+
+      
+   
   
