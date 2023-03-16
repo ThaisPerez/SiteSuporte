@@ -30,14 +30,14 @@ function App() {
         <h1>Solução para qualquer problema em informática</h1>
         <div className='Container-Cards'>
           <Card whats="https://wa.me/5569993144347?text=Gostaria%20de%20fazer%20or%C3%A7amento%20do%20servi%C3%A7o%20de%20forma%C3%A7%C3%A3o." titulo="Câmera de segurança" subtitulo="Instalação e manuntenção" img={Camera} click="https://wa.me/5569993144347?text=Gostaria%20de%20fazer%20or%C3%A7amento%20do%20servi%C3%A7o%20de%20forma%C3%A7%C3%A3o." />
-          <Card titulo="Montagem" subtitulo="Montar seu computador." img={Montagem} />
-          <Card titulo="Formatação" subtitulo=" Formatação para o windows 11." img={Formatação} />
-          <Card titulo="Servidor" subtitulo=" Montagem e manutenção." img={Servidor} />
-          <Card titulo="Limpeza" subtitulo=" Limpeza externa e interna." img={Limpeza} />
-          <Card titulo="Trocar de peças" subtitulo=" Substituição de peças ou upgrade. " img={Roteador} />
-          <Card titulo="Impressora" subtitulo="Instalação de drive, compartilhamento, etc. " img={Impressora} />
-          <Card titulo="Celular" subtitulo="Manuntenção geral em celular" img={Celular} />
-          <Card titulo="Outros serviços" subtitulo=" Serviços com compartilhamento de informações, etc. " img={Tecnologia}  />
+          <Card whats="https://api.whatsapp.com/send?phone=5555699931443&text=Ol%C3%A1,%20gostaria%20de%20fazer%20um%20or%C3%A7amento%20para%20montagem%20do%20meu%20computador.%20"titulo="Montagem" subtitulo="Montar seu computador." img={Montagem} />
+          <Card whats="https://api.whatsapp.com/send?phone=5555699931443&text=Ol%C3%A1,%20gostaria%20de%20fazer%20um%20or%C3%A7amento%20para%20formata%C3%A7%C3%A3o%20do%20meu%20computador.%20" titulo="Formatação" subtitulo=" Formatação para o windows 11." img={Formatação} />
+          <Card whats="https://api.whatsapp.com/send?phone=5555699931443&text=Ol%C3%A1,%20gostaria%20de%20fazer%20um%20or%C3%A7amento%20para%20montagem%20ou%20manuten%C3%A7%C3%A3o%20do%20meu%20servidor.%20"titulo="Servidor" subtitulo=" Montagem e manutenção." img={Servidor} />
+          <Card whats="https://api.whatsapp.com/send?phone=5555699931443&text=Ol%C3%A1,%20gostaria%20de%20fazer%20um%20or%C3%A7amento%20para%20uma%20limpeza%20externa%20ou%20interna%20do%20meu%20computador.%20" titulo="Limpeza" subtitulo=" Limpeza externa e interna." img={Limpeza} />
+          <Card whats="https://api.whatsapp.com/send?phone=5555699931443&text=Ol%C3%A1,%20gostaria%20de%20fazer%20um%20or%C3%A7amento%20para%20uma%20limpeza%20externa%20ou%20interna%20do%20meu%20computador.%20" titulo="Trocar de peças" subtitulo=" Substituição de peças ou upgrade. " img={Roteador} />
+          <Card whats="https://api.whatsapp.com/send?phone=5555699931443&text=Ol%C3%A1,%20gostaria%20de%20fazer%20um%20or%C3%A7amento%20para%20instala%C3%A7%C3%A3o%20de%20drive%20ou%20compartilhamento%20na%20impressora.%20" titulo="Impressora" subtitulo="Instalação de drive, compartilhamento, etc. " img={Impressora} />
+          <Card whats="https://api.whatsapp.com/send?phone=5555699931443&text=Ol%C3%A1,%20gostaria%20de%20fazer%20um%20or%C3%A7amento%20para%20manuten%C3%A7%C3%A3o%20geral%20em%20celular.%20" titulo="Celular" subtitulo="Manutenção geral em celular" img={Celular} />
+          <Card whats="https://api.whatsapp.com/send?phone=5555699931443&text=Ol%C3%A1,%20gostaria%20de%20fazer%20um%20or%C3%A7amento%20de%20outros%20servi%C3%A7os." titulo="Outros serviços" subtitulo=" Serviços com compartilhamento de informações, etc. " img={Tecnologia}  />
         </div>
       </div>
       <div name="suporte" className='Container-suporte'>
