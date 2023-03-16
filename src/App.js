@@ -1,16 +1,16 @@
 import Navbar from './components/Navbar'
 import Card from './components/Cards'
 import Camera from './assets/camera-de-seguranca.gif'
-import Manuntencao from './assets/manutencao.svg'
-import Formatação from './assets/windows.png'
-import Hardware from './assets/hardware.png'
-import Limpeza from './assets/limpeza.svg'
-import Ram from './assets/ram.png'
+import Montagem from './assets/montagem.gif'
+import Formatação from './assets/windows.gif'
+import Servidor from './assets/servidor.gif'
+import Limpeza from './assets/limpeza.gif'
+import Roteador from './assets/roteador.gif'
 import Impressora from './assets/impressora.gif'
 import Celular from './assets/celular.gif'
 import Tecnologia from './assets/tecnologia.gif'
 import Footer from './components/Footer'
-import Suporte from './assets/suporte.svg'
+import Suporte from './assets/suporte.gif'
 import CardSuporte from './components/CardsSuporte'
 import Anydesk from './assets/anydesk.svg'
 import Team from './assets/team.svg'
@@ -30,14 +30,14 @@ function App() {
         <h1>Solução para qualquer problema em informática</h1>
         <div className='Container-Cards'>
           <Card whats="https://wa.me/5569993144347?text=Gostaria%20de%20fazer%20or%C3%A7amento%20do%20servi%C3%A7o%20de%20forma%C3%A7%C3%A3o." titulo="Câmera de segurança" subtitulo="Instalação e manuntenção" img={Camera} click="https://wa.me/5569993144347?text=Gostaria%20de%20fazer%20or%C3%A7amento%20do%20servi%C3%A7o%20de%20forma%C3%A7%C3%A3o." />
-          <Card titulo="Montagem" subtitulo="Montar seu computador." img={Manuntencao} />
+          <Card titulo="Montagem" subtitulo="Montar seu computador." img={Montagem} />
           <Card titulo="Formatação" subtitulo=" Formatação para o windows 11." img={Formatação} />
-          <Card titulo="Peças" subtitulo=" Peças para computador ou notebook." img={Hardware} />
+          <Card titulo="Servidor" subtitulo=" Montagem e manutenção." img={Servidor} />
           <Card titulo="Limpeza" subtitulo=" Limpeza externa e interna." img={Limpeza} />
-          <Card titulo="Trocar de peças" subtitulo=" Substituição de peças ou upgrade. " img={Ram} />
+          <Card titulo="Trocar de peças" subtitulo=" Substituição de peças ou upgrade. " img={Roteador} />
           <Card titulo="Impressora" subtitulo="Instalação de drive, compartilhamento, etc. " img={Impressora} />
           <Card titulo="Celular" subtitulo="Manuntenção geral em celular" img={Celular} />
-          <Card titulo="Outros serviços" subtitulo=" Compartilhamento de pasta de informações, etc. " img={Tecnologia}  />
+          <Card titulo="Outros serviços" subtitulo=" Serviços com compartilhamento de informações, etc. " img={Tecnologia}  />
         </div>
       </div>
       <div name="suporte" className='Container-suporte'>
@@ -59,5 +59,4 @@ function App() {
 }
 
 export default App;
-
 
