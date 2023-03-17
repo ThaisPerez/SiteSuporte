@@ -26,8 +26,8 @@ body {
 }
 
 .Content img {
-    height: 407px;
-    width: 661px;
+    height: 50%;
+    width: 25%;
 
 }
 
@@ -70,6 +70,7 @@ body {
     gap: 40px;
     color: #E5E7EB;
     font-weight: 200;
+    padding: 60px 0;
 }
 
 .Container-Cards {
@@ -78,7 +79,8 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     max-width: 1000px;
-    padding:80px 0 ;
+    padding:20px 0 ;
+ 
 
 }
 .Container-suporte{
